@@ -1,4 +1,4 @@
-#Universal 2D Angle Subtraction
+# Universal 2D Angle Subtraction
 
 Use these to subtract angles in degrees (to use radians, just change the 360° to 2π). There are two methods, both will work for any angles, even ones not bound between 0 and 360. 
 
@@ -10,9 +10,9 @@ To subtract 3D angles using this method, find the 2D values for the angles on th
 
 Please contact me if you have any suggestions on improvements.
 
-##Implementations
+## Implementations
 
-###Python
+### Python
 
 **Absolute**
 ```python
@@ -41,7 +41,7 @@ def relAngleSub(a, b):
 	return a - b
 ```
 
-###JavaScript
+### JavaScript
 
 **Absolute**
 ```JavaScript
@@ -75,7 +75,7 @@ function relAngleSub(a, b){
 	return a - b;
 }
 ```
-###C\#
+### C\#
 
 **Absolute**
 ```C#
