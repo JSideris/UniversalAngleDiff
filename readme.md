@@ -2,7 +2,7 @@
 
 Use these to subtract angles in degrees (to use radians, just change references of 360 to 2π and 180 to π). There are two methods, both will work for any angles, even ones not bound between 0 and 360. 
 
-The absolute method will return the absolute unsigned different between the angles between 0° and 180° (180° is the farstest apart angles can be).
+The absolute method will return the absolute unsigned difference between the angles between 0° and 180° (180° is the farstest apart angles can be).
 
 The Relative (signed) method will return a value between -180° and 180° where the magnitude of the value is absolute difference and the sign indicates whether the shortest angle from b to a is positive or negative. For instance, if a is 15 and b is 25, the result will be -10.
 
