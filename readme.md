@@ -1,4 +1,5 @@
 #Universal 2D Angle Subtraction
+
 Use these to subtract angles in degrees (to use radians, just change the 360° to 2π). There are two methods, both will work for any angles, even ones not bound between 0 and 360. 
 
 The absolute method will return the absolute unsigned different between the angles between 0° and 180° (180° is the farstest apart angles can be).
@@ -10,7 +11,9 @@ To subtract 3D angles using this method, find the 2D values for the angles on th
 Please contact me if you have any suggestions on improvements.
 
 ##Implementations
+
 ###Python
+
 **Absolute**
 ```python
 def absAngleSub(a, b):
@@ -39,6 +42,7 @@ def relAngleSub(a, b):
 ```
 
 ###JavaScript
+
 **Absolute**
 ```JavaScript
 function absAngleSub(a, b){
@@ -72,6 +76,7 @@ function relAngleSub(a, b){
 }
 ```
 ###C\#
+
 **Absolute**
 ```C#
 public double AbsAngleSub(double a, double b){
