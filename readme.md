@@ -1,6 +1,6 @@
 # Universal 2D Angle Subtraction
 
-Use these to subtract angles in degrees (to use radians, just change the 360° to 2π). There are two methods, both will work for any angles, even ones not bound between 0 and 360. 
+Use these to subtract angles in degrees (to use radians, just change references of 360 to 2π and 180 to π). There are two methods, both will work for any angles, even ones not bound between 0 and 360. 
 
 The absolute method will return the absolute unsigned different between the angles between 0° and 180° (180° is the farstest apart angles can be).
 
