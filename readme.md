@@ -38,7 +38,12 @@ def relAngleSub(a, b):
 	else: 
 		b = b % 360
 		if b > 180: b = -360 + b
-	return a - b
+	if a - b > 180:
+		return (a - b) - 360
+	elif a - b < -180:
+		return (a - b) + 360
+	else: 
+		return a - b
 ```
 
 ### JavaScript
@@ -72,7 +77,9 @@ function relAngleSub(a, b){
 		b = b % 360;
 		if(b > 180) b = -360 + b;
 	}
-	return a - b;
+	if(a - b > 180) return (a - b) - 360; 
+	else if(a - b < -180) return (a - b) + 360; 
+	else return a - b; 
 }
 ```
 ### C\#
@@ -106,6 +113,8 @@ public double RelAngleSub(double a, double b){
 		b = b % 360d;
 		if(b > 180d) b = -360d + b;
 	}
-	return a - b;
+	if(a - b > 180d) return (a - b) - 360d;
+	else if(a - b < -180d) return (a - b) + 360d; 
+	else return a - b; 
 }
 ```
